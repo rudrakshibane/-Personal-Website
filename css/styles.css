@@ -1,0 +1,158 @@
+
+body
+{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+p
+{
+  color: gray;
+  font-family:  'Merriweather', serif;
+  line-height: 2;
+}
+hr
+{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 0.5rem;
+  color: lightgrey;
+  width: 4.5rem;
+  margin-bottom: 5%;
+  margin-top: 5%;
+
+}
+
+h1
+{
+
+  font-size: 500%;  /* 16px = 100% = 1em */
+  margin: 3rem auto 0 auto;
+  line-height: 1.5; /** line-height does not have unit 1 is defult and here we have X 1.5;**/
+  font-family: 'Sacramento', cursive;
+  color: #4b778d;
+
+}
+
+h2
+{
+  font-family: 'Montserrat', sans-serif;
+  color:  #4b778d;
+  font-size: 2.5rem;
+
+
+}
+
+a
+{
+  color:  #194350;
+  text-decoration: none;
+  margin: auto;
+  padding: 2%;
+  margin-top: 2%
+
+}
+
+h3
+{
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+  font-size: 1.5rem;
+}
+
+.top-cloud
+{
+  position: relative;
+  margin-left: 55%;
+}
+
+.bottom-cloud
+{
+  position: absolute;
+  left: 8.5rem;
+}
+
+.profile img
+{
+  height: 19%;
+  width: 19%;
+  margin-top: 5%;
+}
+.topContainer
+{
+    background-color: #66bfbf;
+    padding-top: 10%;
+
+}
+
+.topContainer p
+{
+  font-size: 2.5rem;
+  margin-top: 0;
+  color: #194350;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+.bottom-container
+{
+  background-color: #ff8882;
+  margin: 7% 0 0 0;
+  height: 150px;
+}
+
+.bottom-container a
+{
+  position: relative;
+  top: 30%
+}
+
+.bottom-container p
+{
+  position: relative;
+  top: 35%
+}
+
+.skill-row
+{
+  width: 50%;
+  margin: 5% auto 7% auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row-image1
+{
+  height: 28%;
+  width: 28%;
+  margin-right: 2rem;
+  float: left;
+  /** float helps to make image and text on the same line so we dont have to use table we
+                  can use float instead of it. this saves lots of time of coders. **/
+}
+
+.contact-me p
+{
+  margin-bottom: 7%;
+}
+
+.btn
+{
+  background-color: #ff8882;
+  border-radius: 5%;
+}
+
+.skill-row-image2
+{
+  height: 30%;
+  width: 30%;
+  margin-left: 1.5rem;
+  float: right;
+}
+
+/**********************************************************notes**********************************************************/
+/* if you want to center all the elememnts in our website to the center then we can use text-alignment tag and we can set its value to center
+   (note that text align works only for text and images on our website which doesnt have width specified. To make alignment of elemnts with width to center
+   we can use auto tag in margin auto tag allows us to brought our elements in center.)
+*/
